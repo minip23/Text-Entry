@@ -10,6 +10,6 @@ function submitText() {
 	alert(text);
 }
 
-function storeValue(key, value) {
-	//add some code to store the key-value pair in persistant storage 
+function storeValue(text) {
+	window.localStorage.setItem(text);
 }
